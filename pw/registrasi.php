@@ -36,17 +36,20 @@ if (isset($_POST['registrasi'])) {
             <li>
                 <label>
                     Password :
-                    <input type="text" name="password1" required>
+                    <input type="password" name="password1" required>
                 </label>
             </li>
             <li>
                 <label>
                     Konfirmasi Password :
-                    <input type="text" name="password2" required>
+                    <input type="password" name="password2" required>
                 </label>
             </li>
             <li>
                 <button type="submit" name="registrasi">Registrasi</button>
+            </li>
+            <li>
+                <a href="login.php">Kembali ke halaman login</a>
             </li>
         </ul>
     </form>
