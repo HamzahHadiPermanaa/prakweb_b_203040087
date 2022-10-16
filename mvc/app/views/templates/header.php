@@ -7,10 +7,11 @@
     <title>Halaman <?= $data['judul'];?></title>
     <link href="<?= BASEURL; ?>/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= BASEURL; ?>/css/bootsrap.css" >
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/mycss/style.css" >
 </head>
-<body>
+<body class= "bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-info">
+<nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="<?= BASEURL; ?>">PHP MVC</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
