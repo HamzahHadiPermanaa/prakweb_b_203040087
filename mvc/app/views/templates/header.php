@@ -10,9 +10,8 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
     <div class="container">
-    <div class="container-fluid">
         <a class="navbar-brand" href="<?= BASEURL; ?>">PHP MVC</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,5 +30,4 @@
         </ul>
         </div>
     </div>
-  </div>
 </nav>
